@@ -1,0 +1,13 @@
+/* Change navbar link color on hover */
+.navbar-nav .nav-link:hover {
+    color: white !important; /* Change text color on hover */
+    background-color: rgba(0, 0, 0, 0.2); /* Light transparent background */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Change entire navbar background on hover */
+.navbar:hover {
+    background-color: #28a745 !important; /* Darker green when hovered */
+    transition: background-color 0.3s ease-in-out;
+}

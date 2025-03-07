@@ -20,7 +20,7 @@ from .forms import CommentForm
 class HomeView(ListView):
     template_name = 'core/home.html'
     queryset = Post.objects.all()
-    paginate_by = 2
+    paginate_by = 20
 
 
 class PostView(DetailView):
